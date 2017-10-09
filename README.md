@@ -1,26 +1,29 @@
 # Simple Database Manager (DBMS)
 
-This is a very simple database manager that I made for a school project a while back. It works well as a database management system and currently it is setup as a Australian Football (AFL) merchendise database (this is easy to change to your needs).
+This is a very simple database manager that I made for a school project a while back. It works well as a database management system and currently, it is set up as an Australian Football (AFL) merchandise database (this is easy to change to your needs).
 
-In essence it has customers, products, orders and suppliers tables and can be viewed and edited in either a list view or protal view. There is a full invoice generator system included for the orders table. There are some examples of reports that can be made such as the most popular product per month. There is a graph that displays the data for some of the reports.
+In essence, it has customers, products, orders and suppliers tables and can be viewed and edited in either a list view or portal view. There is a full invoice generator system included for the orders table. There are some examples of reports that can be made such as the most popular product per month. There is a graph that displays the data for some of the reports.
+
+![Index Page](screenshots/index_page.png "Index Page")
+![Portal Page](screenshots/portal_page.png "Portal Page")
 
 ## Disclaimer
 
-I know that in it's current state it has some errors and isn't designed very well and looking back I would have made this system very differently now. I will be updating it in the future but any contributions is greatly appriciated.
+I know that in its current state it has some errors and isn't designed very well and looking back I would have made this system very differently now. I will be updating it in the future but any contributions are greatly appreciated.
 
 ## Why?
 
-I will be updating this repositry in the furture but due to a request for something similar on StackOverflow I decided to post this for any that may need a system similar to this.
+I will be updating this repository in the future but due to a request for something similar on StackOverflow I decided to post this for any that may need a system similar to this.
 
 ## Getting Started
 
-These instructions are purley for getting you a copy of the project up and running on your local machine for development and testing purposes. On my local machine I use a program called [MAMP](https://www.mamp.info), I highly recommend it and it's free! See deployment for notes on how to deploy the project on a live system.
+These instructions are purely for getting you a copy of the project up and running on your local machine for development and testing purposes. On my local machine, I use a program called [MAMP](https://www.mamp.info), I highly recommend it and it's free! See deployment for notes on how to deploy the project on a live system.
 
 ### Prerequisites
 
 What you need to have installed to use the software. I recommend installing [MAMP](https://www.mamp.info) as it is a GUI interface that installs and manages all of these packages, I cannot recommend it enough, it saves you a great deal of time.
 
-If you haven't already got it [Sublime Text](https://www.sublimetext.com) is probobly the best text editor for coding, seriously just get it, it's free!
+If you haven't already got it [Sublime Text](https://www.sublimetext.com) is probably the best text editor for coding, seriously just get it, it's free!
 
 ```
 PHP Server
@@ -45,9 +48,9 @@ So that your file structure should look like
 /Applications/MAMP/htdocs/...
 ```
 
-Upload the Database Save.sql to your mysql database.
+Upload the Database Save.sql to your MySQL database.
 
-Edit the database config at the top of each PHP file to fit your database details (I know it's tedious but it's late and I'll probobly just add a config file tomorrow).
+Edit the database config at the top of each PHP file to fit your database details (I know it's tedious but it's late and I'll probably just add a config file tomorrow).
 
 ```
 $servername = "localhost";
@@ -60,7 +63,7 @@ If it works you should be getting the results like in the images above.
 
 ### Styling
 
-Style it to how it fits your needs. I will be making a template feature so please send them I will be happy to recieve them.
+Style it to how it fits your needs. I will be making a template feature so please send them I will be happy to receive them.
 
 CSS file in
 ```
@@ -77,7 +80,7 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 
 ## Versioning
 
-This repositry uses [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/TomGrozev/Simple-Database-Manager--DBMS-/tags). 
+This repository [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/TomGrozev/Simple-Database-Manager--DBMS-/tags). 
 
 ## Authors
 
